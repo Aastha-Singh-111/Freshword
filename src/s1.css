@@ -1,0 +1,130 @@
+/* Background styling */
+.background-container {
+    background-image: url('../public/Home2.jpg'); /* Replace with your correct image path */
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed; /* Makes the background stay in place during scrolling */
+    height: 100vh; /* Full screen height */
+    width: 100vw; /* Full screen width */
+    opacity: 0.95; /* Slightly reduce the opacity of the background */
+    position: absolute; /* Ensures the background is behind everything */
+    top: 0;
+    left: 0;
+    z-index: -1; /* Push it behind other elements */
+  }
+  
+.header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background-color: #12031685;
+  padding: 5px 20px;
+  color: white;
+  font-family: Arial, sans-serif;
+}
+
+.company-name {
+  font-family: cursive;
+  font-size: 1.5rem;
+  font-weight: bold;
+}
+
+.options {
+  margin: 0 auto; /* Push the options to the center */
+  display: flex;
+  gap: 15px;
+}
+
+.option-button {
+  /* background-color: #61dafb; */
+  color: #d2def5;
+  border: none;
+  padding: 10px 15px;
+  border-radius: 5px;
+  font-size: 1rem;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.option-button:hover {
+  color: #ffffff;
+}
+  
+  /* Game card styling */
+  .game-card {
+    background-color: rgba(255, 255, 255, 0.1);
+    border: 2px solid rgba(255, 255, 255, 0.3);
+    box-shadow: 0 0 15px rgba(255, 255, 255, 0.6);
+    border-radius: 15px;
+    padding: 20px;
+    width: 550px;
+    height: max-content;
+    text-align: center;
+    color: white;
+    backdrop-filter: blur(15px);
+    position: absolute;
+    top: 50%; /* Centers vertically */
+    left: 50%; /* Centers horizontally */
+    transform: translate(-50%, -50%); /* Corrects positioning after centering */
+  }
+
+  .game-card-game{
+    background-color: rgba(216, 208, 208, 0.272);
+    border: 2px solid rgba(255, 255, 255, 0.3);
+    box-shadow: 0 0 15px rgba(255, 255, 255, 0.6);
+    border-radius: 15px;
+    padding: 20px;
+    width: 600px;
+    height: max-content;
+    text-align: center;
+    color: white;
+    backdrop-filter: blur(15px);
+    position: absolute;
+    top: 50%; /* Centers vertically */
+    left: 50%; /* Centers horizontally */
+    transform: translate(-50%, -50%); 
+  }
+  
+  .game-title {
+    /* font-size: 1.8rem; */
+    margin-bottom: 15px;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    font-family: cursive;
+    font-size: 2rem;
+    font-weight: bold;
+  }
+  
+  .game-logo {
+    font-size: 1rem;
+    margin-bottom: 20px;
+    color: #61dafb;
+  }
+  
+  .start-button {
+    background: #61dafb;
+    color: #282c34;
+    border: 1px solid black;
+    border-radius: 8px;
+    /* padding: 10px 10px; */
+    font-size: 1rem;
+    cursor: pointer;
+    transition: all 0.3s ease;
+  }
+  
+  .start-button :not(.start-button.disabled) {
+    background: #2eaaf7;
+    box-shadow: 0 0 10px #61dafb;
+    color: #00050d;
+    border:3px solid #282c34;
+  }
+  
+  .dummyimg {
+    background-image: url('../public/inverted_image1-removebg-preview.png');
+    background-size: cover;
+    background-position: center;
+    height: 300px;
+    width: 500px;
+  }
+
+  
