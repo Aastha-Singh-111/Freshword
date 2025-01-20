@@ -8,7 +8,7 @@ import { useNavigate } from "react-router-dom";
 const Landing = () => {
   const navigate = useNavigate();
   function callGame(){
-    navigate("/game")
+    navigate("/Freshword/game")
   }
   
   return (
